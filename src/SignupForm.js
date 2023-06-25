@@ -11,7 +11,7 @@ function SignupForm() {
     reset,
   } = useForm();
   const password = watch("password");
-  const confirmPassword = watch("confirmPassword");
+  // const confirmPassword = watch("confirmPassword");
 
   const onSubmit = (data) => {
     // Perform registration logic here
